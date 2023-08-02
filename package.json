@@ -1,0 +1,15 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "Challenge 14",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "WarrenAdam"
+  },
+  "author": "WarrenAdam",
+  "license": "ISC"
+}
