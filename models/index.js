@@ -1,35 +1,35 @@
-const User = require('./users');
-const Post = require('./posts');
-const Comment = require('./comments');
+const User = require('./user');
+const Post = require('./post');
+const Comment = require('./comment');
 
 
-User.hasMany(Posts, {
+User.hasMany(Post, {
     foreignKey: 'user_id'
 })
 
-User.hasMany(Comments, {
+User.hasMany(Comment, {
     foreignKey: 'user_id'
 })
 
-Post.belongsTo(Users, {
+Post.belongsTo(User, {
     foreignKey: 'user_id'
 })
 
-Post.hasMany(Comments, {
+Post.hasMany(Comment, {
     foreignKey: 'post_id'
 })
 
-Comment.belongsTo(Users, {
+Comment.belongsTo(User, {
     foreignKey: 'user_id'
 })
 
-Comment.belongsTo(Posts, {
+Comment.belongsTo(Post, {
     foreignKey: 'post_id'
 })
 
 
 module.exports = {
-    Users,
-    Posts,
-    Comments
+    User,
+    Post,
+    Comment
 };

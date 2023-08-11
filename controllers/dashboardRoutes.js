@@ -4,7 +4,7 @@ const { Post, User, Comment } = require('../models');
 const withAuth = require('../utils/authorize');
 
 
-router.get('/', withAuth, (req, res) => {
+router.get('/', (req, res) => {
     Post.findAll({
             where: {
                 user_id: req.session.user_id
@@ -44,7 +44,7 @@ router.get('/', withAuth, (req, res) => {
         });
 });
 
-router.get('/edit/:id', withAuth, (req, res) => {
+router.get('/edit/:id', (req, res) => {
     Post.findOne({
             where: {
                 id: req.params.id
