@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
 
-In this challenge, we used starter code to create routes and models for an ecommererce company. We used our knowledge of sequelize, MySQL and insominia to check errors and ensure routes were working correctly. I learned to use insomnia to create requests to the server and how to properly make models using sequelize structure.
+In this challenge, the task was ot create a tech blog website. IN this website we used the CRUDE operations to make posts, create users, delete posts, create comments and more.
 
 ## Overview
 
@@ -57,33 +57,21 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 
 ## Installation
 
-To use the Express JS API, you must install packages MySQL2 and Sequelize. In addition, you need to install dotenv to hide sensitve information (such as; database name, MySQL2 username and password). This can be done by running the following command npm install in the terminal, as the package.json is already provided in the starter code.
+The instructions to download dependencies is highlitghted on the portal.
 
 ## Usage
-Walkthrough video:
+live URL:
 
-https://watch.screencastify.com/v/T5KyARTkZAvFdx2LcckC
+https://git.heroku.com/tech-blog0.git
 
 Screenshots:<br>
-     ```md
-    ![alt text](assets/images/GET%20PRODUCTS%20LIST.png)
-    ```<br>
-     ```md
-    ![alt text](assets/images/GET%20PRODUCTS%20BY%20ID.png)
-    ```<br>
-     ```md
-    ![alt text](assets/images/POST%20NEW%20PRODUCT.png)
-    ```<br>
-    ```md
-    ![alt text](assets/images/PUT%20REQUEST.png)
-    ```<br>
-    ```md
-    ![alt text](assets/images/DELETE.png)
-    ```<br>
-
+    
+![alt text](../Tech-Blog/public/assets/images/techblog.png)
+   
 
 ## Credits
-To better understand Sequelize modeling and route structures, I watched the following video: https://www.youtube.com/watch?v=Crk_5Xy8GMA
+I would like to credit Alexis San Javier for help in writing and debugging code.
+
 
 ## License
 
